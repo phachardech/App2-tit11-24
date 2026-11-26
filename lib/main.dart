@@ -102,7 +102,7 @@ class HomePage extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
                         _stat(posts, 'โพสต์'),
-                        _stat(followers, 'ผู้ติดตาม'),
+                        _stat(followers, 'ผู้ติดตาม '),
                         _stat(following, 'กำลังติดตาม'),
                       ],
                     ),
